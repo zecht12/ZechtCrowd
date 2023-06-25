@@ -30,6 +30,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
+      <link rel="icon" href="/assets/logo-GR.png" sizes="any" />
         <ToasterProvider />
         <SupabaseProvider>
           <UserProvider>
