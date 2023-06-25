@@ -65,5 +65,5 @@ const MediaItem: React.FC<MediaItemProps> = ({
     </div>
   );
 }
-
+ 
 export default MediaItem;

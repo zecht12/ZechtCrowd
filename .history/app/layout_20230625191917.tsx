@@ -13,8 +13,8 @@ import Sidebar from '@/components/Sidebar'
 const font = Figtree({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'ZechtCrowd',
-  description: 'ZechtCrowd',
+  title: '',
+  description: 'Spotify Clone',
 }
 
 export const revalidate = 0;

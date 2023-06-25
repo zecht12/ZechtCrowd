@@ -68,7 +68,7 @@ const Library: React.FC<LibraryProps> = ({
         ))}
       </div>
     </div>
-  );
+   );
 }
 
 export default Library;

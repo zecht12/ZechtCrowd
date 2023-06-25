@@ -51,7 +51,7 @@ const MediaItem: React.FC<MediaItemProps> = ({
       >
         <Image
           fill
-          src={imageUrl || "/images/music-placeholder.png"}
+          src={imageUrl || "/assets/music-placeholder.png"}
           alt="MediaItem"
           className="object-cover"
         />
@@ -65,5 +65,5 @@ const MediaItem: React.FC<MediaItemProps> = ({
     </div>
   );
 }
-
+ 
 export default MediaItem;
