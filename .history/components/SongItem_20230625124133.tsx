@@ -8,8 +8,8 @@ import { Song } from "@/types";
 import PlayButton from "./PlayButton";
 
 interface SongItemProps {
-    data: Song;
-    onClick: (id: string) => void;
+  data: Song;
+  onClick: (id: string) => void;
 }
 
 const SongItem: React.FC<SongItemProps> = ({
